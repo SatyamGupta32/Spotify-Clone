@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="shortcut icon" href="./assets/images/spotify.svg" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Web Player: Music for everyone</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <div class="home">
+          <div class="logoClose">
+            <div class="logo">
+              <a href="index.html"
+                ><img class="invert logoimg" src="assets/images/logo.svg" alt="Logo"
+              /></a>
+            </div>
+            <div class="Close">
+              <img width="25" height="25" class="invert" src="assets/images/close.svg"
+                alt="Close" />
+            </div>
+          </div>
+          <ul>
+            <li>
+              <a href="index.html"
+                ><img
+                  class="invert"
+                  src="assets/images/home.svg"
+                  alt="Home"
+                />Home</a
+              >
+            </li>
+            <li>
+              <a href="index.html"
+                ><img
+                  class="invert"
+                  src="assets/images/search.svg"
+                  alt="Search"
+                />Search</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="library">
+          <div class="library-top">
+            <div class="your-library">
+              <a href="library.html"
+                ><img
+                  class="invert"
+                  src="assets/images/playlist.svg"
+                  alt="playlist"
+                />
+                Your Library
+              </a>
+            </div>
+            <div class="create-playlist">
+              <img class="invert" src="assets/images/add.svg" alt="add" />
+            </div>
+          </div>
+          <div class="songList">
+            <ul></ul>
+          </div>
+          <div class="end-footer">
+            <div class="footer">
+              <div class="footer-links">
+                <a href="#">Legal</a>
+              </div>
+              <div class="footer-links">
+                <a href="#">Safety & Privacy Center</a>
+              </div>
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+              </div>
+              <div class="footer-links">
+                <a href="#">Cookies</a>
+              </div>
+              <div class="footer-links">
+                <a href="#">About Ads</a>
+              </div>
+              <div class="footer-links">
+                <a href="#">Acccessibility</a>
+              </div>
+            </div>
+            <div class="footer-links-outer">
+              <a href="#">Cookies</a>
+            </div>
+            <div class="language">
+              <button type="submit">
+                <a href="#" target="_blank">
+                  <img
+                    class="invert"
+                    src="assets/images/earth.svg"
+                    alt="earth"
+                  />
+                  English
+                </a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="header">
+          <div class="hamBurger">
+            <img width="50" height="35" class="invert" src="assets/images/hamBurger.svg" alt="hamburger" />
+          </div>
+          <div class="arrows">
+            <div class="arrow-left">
+              <img
+                class="invert"
+                src="assets/images/left.svg"
+                alt="arrow-left
+                "
+              />
+            </div>
+            <div class="arrow-right">
+              <img
+                class="invert"
+                src="assets/images/right.svg"
+                alt="arrow-right
+                "
+              />
+            </div>
+          </div>
+          <div class="signup-login">
+            <button class="signup" type="submit">
+              Sign up
+            </button>
+            <button class="login" type="submit">
+              Log in
+            </button>
+            <button class="account" type="submit"></button>
+            <div class="lougout"></div>
+          </div>
+        </div>
+        <div class="main">
+          <div class="main-playlist">
+            <div class="spotifyplaylist"><a href="#">Spotify Playlists</a></div>
+            <div class="showall">
+              <a href="#">show all</a>
+            </div>
+            <div class="closeplaylist">
+              <a href="#">Close</a>
+            </div>
+          </div>
+          <div class="card-container">
+            <div data-folder="Honey_Singh" class="card">
+              <div class="images">
+                <img
+                  class="album"
+                  height="150"
+                  src="assets/images/cover.jpg"
+                  alt="cover"
+                />
+                <div class="playgreen">
+                  <img
+                    class="playgreen-img"
+                    src="assets/images/playgreen.svg"
+                    alt=""
+                  />
+                </div>
+              </div>
+              <div class="heading-details">
+                <p class="heading">Happy Hits!</p>
+                <p class="details">
+                  Hits to boost your mood and fill you with...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="playbar">
+          <div class="playbarTop">
+            <div class="currentSongTime">00:00</div>
+            <div class="seekBar">
+              <div class="seekBar_progress"></div>
+            </div>
+            <div class="totalSongTime">00:00</div>
+          </div>
+          <div class="playbarBottom">
+            <div class="currentSongName">
+
+            </div>
+            <div class="songButtons">
+              <div class="previousSong">
+                <img
+                  src="./assets/images/previousSong.svg"
+                  alt="previousSong"
+                />
+              </div>
+              <div class="playNowSeekbar">
+                <img src="./assets/images/play.svg" alt="play" />
+              </div>
+              <div class="nextSong">
+                <img src="./assets/images/nextSong.svg" alt="nextSong" />
+              </div>
+            </div>
+            <div class="volumeButton">
+              <img src="./assets/images/volume.svg" alt="volume" />
+              <div class="volRange">
+                <input type="range" name="volume" id="range" min="0" max="100"
+                value="50" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
