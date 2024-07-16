@@ -35,6 +35,22 @@
     }
 }
 
+
+@media screen and (max-width:1224px) and (max-height:1142px) {
+
+    .library{
+        min-height: 80vh;
+    }
+
+    .songList ul{
+        padding: 0 2px;
+    }
+    .songname{
+        font-size: 10px;
+        font-weight: 400;
+    }
+}
+
 /* iPad Pro */
 
 @media screen and (max-width:1025px) {
