@@ -108,6 +108,13 @@
 
 }
 
+@media screen and (max-width:987px) and (max-height:921px) {
+
+.home{
+    padding: 0;
+}
+}
+
 /* iPad Air */
 
 @media screen and (max-width:821px) {
@@ -146,6 +153,7 @@
 
     .home {
         min-height: 17vh;
+        padding: 10px;
     }
 }
 
