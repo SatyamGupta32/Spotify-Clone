@@ -42,12 +42,8 @@ HTML Section
   - Add seamless functionality by creating a backend-like copy for fetching albums and songs from the server from our own 
     directory.
   - Add a hamburger menu feature for small devices.
-  - Populate songs when clicking on a card, include autoplay functionality, play/pause buttons,display current song name,        time, and full duration.
+  - Populate songs when clicking on a card, include autoplay functionality, play/pause buttons,display current song name, time, and full duration.
   - Include mute/unmute features on the volume button, and next/prev song functionality when clicking a button.
 
 ### Conclusion
-  - This clone project will provide knowledge towards frontend development skills for a song app, enabling you to create any     song player with these skillsets.
-
-### Provided Links
-  - Original website: https://open.spotify.com/
-  - Clone website: https://spotify-responsive-clone.netlify.app/
+  - This clone project will provide knowledge towards frontend development skills for a song app, enabling you to create any song player with these skillsets.
