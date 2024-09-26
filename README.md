@@ -3,7 +3,7 @@
 ## Introduction
 In this project, we'll create a basic clone of the Spotify Music App using HTML, CSS, and JavaScript. While this won't replicate all the functionality of Spotify, it will focus on mimicking the layout and visual design of the homepage and ensuring it is responsive on all devices.
 
-### You can check out this website : [here](https://spotify-clone-woad-delta.vercel.app/)
+### You can check out this website [here](https://spotify-clone-woad-delta.vercel.app/)
 ## Sections
 The project is divided into three main sections:-
 
